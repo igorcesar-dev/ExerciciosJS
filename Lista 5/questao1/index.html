@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palpites</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="body">
+        <h1>Sorteador de números</h1>
+        <div class="container">
+            
+            <div class="box">
+                <div class="titulo">
+                    <p>Número Sorteado entre 1 e 1000! Adivinhe-o!</p>
+
+                    <div class="palpite">
+
+                        <label for="">Qual é o seu palpite?</label>
+                        <input id="num-inserido" type="text" onfocus="this.value='';" min="1" max="1000"
+                            autocomplete="off">
+
+                        <button class="btn-verificar">Verificar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="mensagens"></p>
+
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dados">
+            <div class="box-1">
+                <fieldset>
+                    <legend>Dados de Novo Indivíduo</legend>
+                    <label class="lab lab-nome" for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nomeIndividuo"><br>
+                    <label class="lab" for="peso">Peso:</label>
+                    <input type="text" name="peso" id="pesoIndividuo"><span>Kg</span><br>
+                    <label class="lab" for="altura">Altura</label>
+                    <input type="text" name="altura" id="alturaIndividuo"><span>metros</span>
+                </fieldset>
+            </div>
+            <button id="botaoIndividuo">Processar Dados</button>
+        </div>
+
+        <div class="grau">
+            <fieldset>
+                <label for="obesidade">Grau de Obesidade</label>
+                <select name="grau-obesidade" id="grau-obesidade">
+                    <option value="magreza">Magreza</option>
+                    <option value="saudável">Saudável</option>
+                    <option value="sobrepeso">Sobrepeso</option>
+                    <option value="ogi">Obesidade de Grau I (Leve)</option>
+                    <option value="ogii">Obesidade de Grau II (Severa)</option>
+                    <option value="ogiii">Obesidade de Grau III (Mórbida)</option>
+                </select>
+                <button id="exibirIndividuo">Indivíduos</button>
+
+                <p id="exibe-individuo"></p>
+            </fieldset>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
